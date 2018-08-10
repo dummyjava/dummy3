@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.dummy.java.dummy3.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in com.dummy.java.dummy3.AppTest
