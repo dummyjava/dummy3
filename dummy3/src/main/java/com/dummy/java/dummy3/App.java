@@ -13,7 +13,7 @@ public class App {
 		System.out.println(reverseString("hello"));
 		System.out.println(reverseString1("hello1"));
 		System.out.println(reverseString2("hello2"));
-	    System.out.println(reverseString1("hello3"));
+	    System.out.println(reverseString3("hello3"));
 	    System.out.println("is Hello palindrome:"+palindrome("hello"));
 	    System.out.println("is civic palindrome:"+palindrome("civic"));
 	    System.out.println("find first repeat char:"+findfirstrepeat("heello"));
@@ -59,12 +59,12 @@ public class App {
     public static String reverseString3(String origin)
     {
     	ArrayList<String> alist = new ArrayList<String>();
-    	for(int i=0; i<= origin.length();i++)
+    	for(int i=0; i< origin.length();i++)
     	{    		
     	alist.add(String.valueOf(origin.charAt(i))); 
     	}
-    	String result = "";
-    	alist.forEach(i -> { result.concat(i);});
+    	String  result = "";
+    	alist.stream().filter( s -> s.contains("h"));
     	return result;
     	
     }
